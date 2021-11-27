@@ -1,0 +1,37 @@
+.modal-dialog{
+    padding: 10px
+}
+.cross {
+    padding: 10px;
+    color: #d6312d;
+    cursor: pointer
+}
+
+.continue:focus {
+    outline: none
+}
+
+.continue {
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 19px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #D50000
+}
+
+.continue:hover {
+    background-color: #D32F2F !important
+}
+.title-content-bs{
+    padding: 10px;
+    font-size: 3rem;
+    color: yellow;
+    margin-bottom: 0 !important;
+}
+
+.content-bs{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
