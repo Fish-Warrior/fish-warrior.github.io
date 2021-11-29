@@ -111,6 +111,16 @@ h1 {
     min-width: 100px;
 }
 
+.content_box_tv {
+    padding: 0.5em;
+    border-image: url(../img/frame-tv.png);
+    border-image-slice: calc(52 / 190 * 100%) calc(52 / 190 * 100%) fill;
+    border-image-width: 40px 80px;
+    text-align: center;
+    color: #111;
+    min-width: 100px;
+}
+
 .content_box_label_common {
     padding: 0.5em 1.5em;
     border-image: url(../img/frame-label-common.png);
@@ -20492,7 +20502,6 @@ img[data-v-11bc6412] {
 .index-page .scroll_bg_8 .join_content .join_content_block_group .join_content_block img[data-v-11bc6412] {
     width: 212px;
     height: auto;
-    background: #fff;
     padding: 10px;
     border-radius: 15px;
 }
