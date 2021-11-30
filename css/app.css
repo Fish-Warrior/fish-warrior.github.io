@@ -109,6 +109,7 @@ h1 {
     text-align: center;
     color: #111;
     min-width: 100px;
+    font-size: 1.7rem;
 }
 
 .content_box_tv {
@@ -19749,7 +19750,7 @@ input[data-v-46c23afd]:-ms-input-placeholder {
 
 .index-page .scroll_bg3 .role-content .main-content .cut-icon[data-v-11bc6412] {
     width: 443px;
-    margin-left: -40px;
+    margin-left: -65px;
 }
 
 .index-page .scroll_bg3 .role-content .main-content .cut-icon img[data-v-11bc6412] {
