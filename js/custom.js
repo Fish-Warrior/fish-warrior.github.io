@@ -11,25 +11,20 @@ let particles = [];
 
 // Generates a serving of fish puns.
 const quotes = [
-    "Iâ€™m hooked!",
-    "Seems a bit fishy to me.",
-    "Iâ€™d make him walk the plankton for that.",
-    "Not bad, cod be betterâ€¦",
-    "Itâ€™s a great oppor-tuna-ty!",
-    "We whaley need to stop now!",
-    "Well, itâ€™s oh-fish-ial.",
-    "Keep your friends close and your anemones closer.",
-    "Letâ€™s just clam down should we.",
-    "Holy shrimp! This scampi happening.",
-    "The new squid on the block.",
-    "Iâ€™m so angry I could krill someone.",
-    "Too many fish puns. We should scale back."
+    "NFT BLOCKCHAIN GAMES  \"PLAY TO EARN\"",
+    "NFT PIXEL GAME",
+    "FARM - PLAY - EARN",
+    "PLAY TO EARN",
+    "FISH WARRIOR",
 ]
-const quote = document.getElementById("quote");
 
-if (quote) {
-    quote.innerHTML = quotes[randomNumber(0, quotes.length)];
-}
+setInterval(()=>{
+    const quote = document.getElementById("quote");
+
+    if (quote) {
+        quote.innerHTML = quotes[randomNumber(0, quotes.length)];
+    }
+}, 5000)
 
 // Preform a parallax effect on etch element, use multiplication as the offset.
 window.addEventListener('scroll', function () {
