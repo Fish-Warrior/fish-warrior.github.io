@@ -37156,6 +37156,13 @@ html[data-v-3035f8cc] {
     src: url(../fonts/iconfont.d31669c.woff2) format("woff2"), url(../fonts/iconfont.385bc0e.woff) format("woff"), url(../fonts/iconfont.92eca99.ttf) format("truetype")
 }
 
+@font-face {
+    font-family: 'Pixel-Sans-Serif-Condensed';
+    src: url("../fonts/Pixel Sans Serif Condensed.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .font_family {
     font-family: font_family !important;
     font-size: 16px;
@@ -38534,3 +38541,4 @@ html[data-v-3035f8cc] {
 .bg-even {
     background: rgba(42, 44, 77, 0.5);
 }
+
