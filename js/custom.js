@@ -15,7 +15,7 @@ const quotes = [
     "NFT PIXEL GAME",
     "FARM - PLAY - EARN",
     "PLAY TO EARN",
-    "FISH WARRIOR",
+    "FISH WARRIORS",
 ]
 
 setInterval(()=>{

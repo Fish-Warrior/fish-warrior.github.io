@@ -101,13 +101,17 @@ h1 {
     text-align: center;
 }
 
+.content_box_note * {
+    color: #111;
+}
+
 .content_box_note {
     padding: 1.5em 1.5em;
     border-image: url(../img/frame-note.png);
     border-image-slice: calc(52 / 190 * 100%) calc(52 / 190 * 100%) fill;
     border-image-width: 40px 80px;
-    text-align: center;
     color: #111;
+    text-align: center;
     min-width: 100px;
     font-size: 1.7rem;
 }
@@ -247,7 +251,7 @@ a[disabled] .content_button {
     align-items: center;
 }
 
-.content_button p {
+.content_button > * {
     font-size: 2.5em;
     margin: 0;
 }
@@ -261,7 +265,7 @@ a[disabled] .content_button {
     transform: scaleX(1.5) scaleY(1.1);
 }
 
-.content_button p {
+.content_button * {
     color: #003951 !important;
 }
 
@@ -37910,7 +37914,7 @@ html[data-v-3035f8cc] {
     color: #fff;
 }
 
-.nav-page .nav-fixed .nav-title .nav-title-a a[data-v-7462027c]:hover {
+.nav-page .nav-fixed .nav-title .nav-title-a a[data-v-7462027c]:hover * {
     color: #FFC061;
 }
 
