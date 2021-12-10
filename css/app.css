@@ -19737,7 +19737,6 @@ input[data-v-46c23afd]:-ms-input-placeholder {
 }
 
 .index-page .scroll_bg3 .role-content .main-content[data-v-11bc6412] {
-    max-width: 450px;
     height: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -19790,7 +19789,6 @@ input[data-v-46c23afd]:-ms-input-placeholder {
 }
 
 .index-page .scroll_bg3 .role-content .main-content .attr-content .attr-row .attr-col[data-v-11bc6412] {
-    min-width: 120px;
     margin-right: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -37214,10 +37212,6 @@ html[data-v-3035f8cc] {
     content: "\E6A4";
 }
 
-.icon-cat-paw:before {
-    content: "\E6A3";
-}
-
 .icon-life:before {
     content: "\E697";
 }
@@ -37336,14 +37330,6 @@ html[data-v-3035f8cc] {
 
 .icon-home-d:before {
     content: "\E67D";
-}
-
-.icon-cat-a:before {
-    content: "\E67E";
-}
-
-.icon-cat-d:before {
-    content: "\E67F";
 }
 
 .icon-gift:before {
@@ -37914,7 +37900,7 @@ html[data-v-3035f8cc] {
     color: #fff;
 }
 
-.nav-page .nav-fixed .nav-title .nav-title-a a[data-v-7462027c]:hover * {
+.nav-page .nav-fixed .nav-title .nav-title-a a[data-v-7462027c]:hover, .nav-page .nav-fixed .nav-title .nav-title-a a[data-v-7462027c]:hover * {
     color: #FFC061;
 }
 
