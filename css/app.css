@@ -38472,18 +38472,6 @@ html[data-v-3035f8cc] {
     }
 }
 
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #181425;
-}
-
-::-webkit-scrollbar-track {
-    background: #3a4466;
-}
-
 .vjs-custom-skin {
     padding: 20px !important;
 }
